@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(89, 198, 162);
+    font-family: cursive;
+}
+.nav{
+    position: fixed;
+    background-color: yellowgreen;
+}
+.nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.nav a{
+    color: blue;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 35px;
+}
+.sample{
+    background-image: url("nature.jpg");
+    background-size: cover;
+    color: rgb(36, 68, 128);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample h1{
+    font-size: 45px;
+    color: greenyellow;
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.sample p{
+    text-align: center;
+    font-style: 35px;
+
+}
+.contain h1{
+    font-size: 48px;
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.contain p{
+    font-size: 35px;
+    margin: 50px;
+}
+.nav.active{
+    background-color: rgb(103, 241, 10);
+}
+.nav.active a{
+    color: rgb(30, 30, 216);
+}
